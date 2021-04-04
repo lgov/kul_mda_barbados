@@ -2,3 +2,4 @@ jupyter
 pandas
 scikit-learn
 matplotlib
+sec-edgar-downloader
