@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xsi:schemaLocation="http://www.sec.gov/edgar/thirteenffiler eis_13F_Filer.xsd" xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:ns1="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>true</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0000102909</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>06-30-2018</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>06-30-2018</reportCalendarOrQuarter>
+      <filingManager>
+        <name>VANGUARD GROUP INC</name>
+        <address>
+          <ns1:street1>PO Box 2600</ns1:street1>
+          <ns1:street2>V26</ns1:street2>
+          <ns1:city>Valley Forge</ns1:city>
+          <ns1:stateOrCountry>PA</ns1:stateOrCountry>
+          <ns1:zipCode>19482-2600</ns1:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-06408</form13FFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Christine M. Buchanan</name>
+      <title>Principal</title>
+      <phone>610-669-8989</phone>
+      <signature>/s/ CHRISTINE M. BUCHANAN</signature>
+      <city>Malvern</city>
+      <stateOrCountry>PA</stateOrCountry>
+      <signatureDate>08-14-2018</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>3</otherIncludedManagersCount>
+      <tableEntryTotal>13517</tableEntryTotal>
+      <tableValueTotal>2390611653</tableValueTotal>
+      <isConfidentialOmitted>false</isConfidentialOmitted>
+      <otherManagers2Info>
+        <otherManager2>
+          <sequenceNumber>1</sequenceNumber>
+          <otherManager>
+            <form13FFileNumber>028-11554</form13FFileNumber>
+            <name>VANGUARD FIDUCIARY TRUST CO</name>
+          </otherManager>
+        </otherManager2>
+        <otherManager2>
+          <sequenceNumber>2</sequenceNumber>
+          <otherManager>
+            <form13FFileNumber>028-14986</form13FFileNumber>
+            <name>Vanguard Investments Australia, Ltd.</name>
+          </otherManager>
+        </otherManager2>
+        <otherManager2>
+          <sequenceNumber>3</sequenceNumber>
+          <otherManager>
+            <form13FFileNumber>028-16887</form13FFileNumber>
+            <name>VANGUARD ADVISERS INC</name>
+          </otherManager>
+        </otherManager2>
+      </otherManagers2Info>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
