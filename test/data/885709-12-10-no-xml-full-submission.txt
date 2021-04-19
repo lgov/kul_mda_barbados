@@ -1,0 +1,334 @@
+<SEC-DOCUMENT>0000885709-12-000010.txt : 20120215
+<SEC-HEADER>0000885709-12-000010.hdr.sgml : 20120215
+<ACCEPTANCE-DATETIME>20120214201957
+ACCESSION NUMBER:		0000885709-12-000010
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20111231
+FILED AS OF DATE:		20120215
+DATE AS OF CHANGE:		20120214
+EFFECTIVENESS DATE:		20120215
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			PAYDEN & RYGEL INVESTMENT GROUP
+		CENTRAL INDEX KEY:			0000885709
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			MA
+		FISCAL YEAR END:			1031
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-04643
+		FILM NUMBER:		12613906
+
+	BUSINESS ADDRESS:	
+		STREET 1:		333 S GRAND AVE
+		STREET 2:		32ND FL
+		CITY:			LOS ANGELES
+		STATE:			CA
+		ZIP:			90071
+		BUSINESS PHONE:		2136251900
+
+	MAIL ADDRESS:	
+		STREET 1:		333 S GRAND AVE
+		STREET 2:		32ND FL
+		CITY:			LOS ANGELES
+		STATE:			CA
+		ZIP:			90071
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	PAYDENFUNDS
+		DATE OF NAME CHANGE:	20010423
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	PAYDEN & RYGEL INVESTMENT GROUP
+		DATE OF NAME CHANGE:	19940104
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	P&R INVESTMENT TRUST
+		DATE OF NAME CHANGE:	19920929
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>form13fhr_1211.txt
+<DESCRIPTION>P&RIG COVER LETTER AND DATA INFO
+<TEXT>
+                                 UNITED STATES
+                       SECRITIES AND EXCHANGE COMMISSION
+                             WASHINGTON D.C. 20549
+                                    FORM 13F
+                              FORM 13F COVER PAGE
+Report for the Calendar Year or Quarter Ended: December 31, 2011
+Check here if Amendment [  ]; Amendment Number:
+
+This Amendment (Check only one.):     [  ] is a restatement.
+     [  ] adds new holdings entries.
+
+Institutional Investment Manager Filing this Report:
+Name:     Payden & Rygel
+Address:     333 S. Grand Avenue
+     Los Angeles, CA  90071
+
+13F File Number:     28-04643
+
+The institutional investment manager filing this report and the person by whom
+it is signed hereby represent that the person signing the report is authorized
+to submit it, that all information contained herein is true, correct and
+complete, and that it is understood that all required items, statements,
+schedules, lists, and tables, are considered integral parts of this submission.
+
+Person Signing this Report on Behalf of Reporting Manager:
+
+Name:     Edward S. Garlock
+Title:     General Counsel
+Phone:     213-830-4255
+Signature,     Place,     and Date of Signing:
+Edward S. Garlock     Los Angeles, CA  90071     February 14,2012
+Report Type (Check only one.):
+     [ X]        13F HOLDINGS REPORT.
+     [  ]        13F NOTICE.
+     [  ]        13F COMBINATION REPORT.
+List of Other Managers Reporting for this Manager:
+
+
+<PAGE>
+
+FORM 13F SUMMARY PAGE
+Report Summary:
+Number of Other Included Managers:     0
+Form 13F Information Table Entry Total:     212
+     $ $193,689
+Form 13F Information Table Value Total ($ Thousands):
+
+List of Other Included Managers:
+
+No.  13F File Number     Name
+
+<TABLE>
+<CAPTION>
+
+
+
+SECURITY                               TYPE    CUSIP    MARKET  SHARES        OPTIONTYPE        SHARES
+<S>                                    <C>   <C>        <C>     <C>      <C>  <C>         <C>   <C>
+AT&T                                   COM   00206R102   1,774   58,664  SH               SOLE   58,664
+ALTRIA GROUP                           COM   02209S103   1,629   54,942  SH               SOLE   54,942
+AMAZON.COM                             COM   023135106   1,004    5,800  SH               SOLE    5,800
+AMEREN                                 COM   023608102   1,643   49,600  SH               SOLE   49,600
+AMERICA MOVIL ADR                      COM   02364W105      27    1,200  SH               SOLE    1,200
+AMERICAN ELECTRIC POWER                COM   025537101   1,720   41,640  SH               SOLE   41,640
+AMGEN                                  COM   031162100      42      650  SH               SOLE      650
+ANNALY MORTGAGE MANAGEMENT             COM   035710409     795   49,800  SH               SOLE   49,800
+APACHE                                 COM   037411105   1,268   14,000  SH               SOLE   14,000
+APPLE                                  COM   037833100   3,483    8,600  SH               SOLE    8,600
+AVON PRODUCTS                          COM   054303102     982   56,200  SH               SOLE   56,200
+BP ADR                                 COM   055622104      20      459  SH               SOLE      459
+BAIDU.COM-ADR                          COM   056752108   1,351   11,600  SH               SOLE   11,600
+BANK OF AMERICA                        COM   060505104      33    6,000  SH               SOLE    6,000
+BARRICK GOLD                           COM   067901108      32      700  SH               SOLE      700
+BED BATH & BEYOND                      COM   075896100     928   16,000  SH               SOLE   16,000
+BERKSHIRE HATHAWAY                     COM   084670108     230        2  SH               SOLE        2
+BERKSHIRE HATHAWAY INC-CL B            COM   084670702     114    1,496  SH               SOLE    1,496
+BIOMED REALTY TRUST INC                COM   09063H107     920   50,900  SH               SOLE   50,900
+BLACKROCK INCOME TRUST                 COM   09247F100     212   28,900  SH               SOLE   28,900
+BOEING                                 COM   097023105     682    9,300  SH               SOLE    9,300
+BRISTOL-MYERS SQUIBB                   COM   110122108     842   23,900  SH               SOLE   23,900
+CIT GROUP INC                          COM   125581801      53    1,517  SH               SOLE    1,517
+CMS ENERGY CORP                        COM   125896100      40    1,800  SH               SOLE    1,800
+CSX                                    COM   126408103      32    1,500  SH               SOLE    1,500
+CABLEVISION SYSTEMS-NY GRP-A           COM   12686C109   1,166   82,000  SH               SOLE   82,000
+CAMERON INTL                           COM   13342B105     974   19,800  SH               SOLE   19,800
+CAPITAL ONE FINL                       COM   14040H105     100    2,369  SH               SOLE    2,369
+CATERPILLAR                            COM   149123101     652    7,200  SH               SOLE    7,200
+CENTERPOINT ENERGY INC                 COM   15189T107     163    8,125  SH               SOLE    8,125
+CENTURYTEL, INC                        COM   156700106   1,585   42,600  SH               SOLE   42,600
+CHEVRON                                COM   166764100     112    1,050  SH               SOLE    1,050
+CINEMARK HOLDINGS INC                  COM   17243V102     736   39,800  SH               SOLE   39,800
+CISCO SYSTEMS                          COM   17275R102      33    1,800  SH               SOLE    1,800
+CITIGROUP INC                          COM   172967424      54    2,067  SH               SOLE    2,067
+CLEAN ENERGY FUELS CORP                COM   184499101       6      500  SH               SOLE      500
+COCA-COLA                              COM   191216100   1,343   19,200  SH               SOLE   19,200
+COGNIZANT TECH SOLUTIONS               COM   192446102   1,087   16,900  SH               SOLE   16,900
+COLGATE-PALMOLIVE                      COM   194162103      28      300  SH               SOLE      300
+COMPASS MINERALS INTERNATIONAL         COM   20451N101      48      700  SH               SOLE      700
+CONOCOPHILLIPS                         COM   20825C104   2,179   29,900  SH               SOLE   29,900
+CONSOLIDATED EDISON                    COM   209115104     144    2,325  SH               SOLE    2,325
+COSTCO WHOLESALE                       COM   22160K105     750    9,000  SH               SOLE    9,000
+COVENTRY HEALTH CARE                   COM   222862104     674   22,200  SH               SOLE   22,200
+VELOCITYSHARES 2X VIX SH-TRM           COM   22542D761      16      500  SH               SOLE      500
+CUMMINS INC                            COM   231021106     942   10,700  SH               SOLE   10,700
+DTE ENERGY                             COM   233331107      82    1,500  SH               SOLE    1,500
+DANAHER                                COM   235851102   1,044   22,200  SH               SOLE   22,200
+DEERE & COMPANY                        COM   244199105   1,183   15,300  SH               SOLE   15,300
+DELL                                   COM   24702R101     613   41,900  SH               SOLE   41,900
+DEVON ENERGY                           COM   25179M103   1,414   22,800  SH               SOLE   22,800
+DOLLAR TREE INC                        COM   256746108   1,031   12,400  SH               SOLE   12,400
+RR DONNELLEY & SONS                    COM   257867101      69    4,750  SH               SOLE    4,750
+DUKE REALTY CORP                       COM   264411505   1,362  113,000  SH               SOLE  113,000
+DUKE ENERGY                            COM   26441C105     166    7,534  SH               SOLE    7,534
+DUNKIN' BRANDS GROUP INC               COM   265504100     634   25,400  SH               SOLE   25,400
+EMC                                    COM   268648102   1,538   71,400  SH               SOLE   71,400
+ECOLAB                                 COM   278865100      52      900  SH               SOLE      900
+ENBRIDGE ENERGY PARTNERS               COM   29250R106   1,334   40,200  SH               SOLE   40,200
+ENERGY TRANSFER PARTNERS               COM   29273R109   1,027   22,400  SH               SOLE   22,400
+ENERGY TRANSFER EQUITY LP              COM   29273V100     970   23,900  SH               SOLE   23,900
+ENTERPRISE PRODUCTS PARTNERS           COM   293792107   1,470   31,700  SH               SOLE   31,700
+EXELIS INC                             COM   30162A108       7      800  SH               SOLE      800
+EXXON MOBIL                            COM   30231G102   3,370   39,756  SH               SOLE   39,756
+FMC CORP                               COM   302491303   1,084   12,600  SH               SOLE   12,600
+FIRSTENERGY                            COM   337932107      22      500  SH               SOLE      500
+FLUOR CORP                             COM   343412102      10      200  SH               SOLE      200
+FORD MOTOR                             COM   345370860       8      700  SH               SOLE      700
+FREEPORT-MCM COPPER & GOLD             COM   35671D857     681   18,500  SH               SOLE   18,500
+FRONTIER COMMUNICATIONS CORP           COM   35906A108       4      700  SH               SOLE      700
+GENERAL ELECTRIC                       COM   369604103   2,101  117,302  SH               SOLE  117,302
+GENERAL MILLS                          COM   370334104      32      800  SH               SOLE      800
+GILEAD SCIENCES                        COM   375558103     737   18,000  SH               SOLE   18,000
+GLAXOSMITHKLINE ADR                    COM   37733W105      14      300  SH               SOLE      300
+GOOGLE                                 COM   38259P508   1,809    2,800  SH               SOLE    2,800
+HCP INC                                COM   40414L109   1,421   34,300  SH               SOLE   34,300
+HALLIBURTON                            COM   406216101   2,078   60,200  SH               SOLE   60,200
+HEALTH CARE REIT INC                   COM   42217K106   1,592   29,200  SH               SOLE   29,200
+HEWLETT-PACKARD                        COM   428236103      31    1,200  SH               SOLE    1,200
+ITT                                    COM   450911201       8      400  SH               SOLE      400
+ILLINOIS TOOL WORKS                    COM   452308109      19      400  SH               SOLE      400
+INERGY LP                              COM   456615103   1,160   47,500  SH               SOLE   47,500
+INTEL                                  COM   458140100   1,472   60,700  SH               SOLE   60,700
+INTEGRYS ENERGY GROUP INC              COM   45822P105     737   13,600  SH               SOLE   13,600
+INTL BUSINESS MACHINES                 COM   459200101   2,409   13,100  SH               SOLE   13,100
+INVESCO MORTGAGE CAPITAL               COM   46131B100      11      800  SH               SOLE      800
+ISHARES MSCI TAIWAN INDEX FUND         COM   464286731     608   51,900  SH               SOLE   51,900
+ISHARES MSCI SWITZERLAND               COM   464286749     226   10,000  SH               SOLE   10,000
+ISHARES MSCI SOUTH KOREA               COM   464286772     988   18,900  SH               SOLE   18,900
+ISHARES MSCI GERMANY INDEX             COM   464286806      83    4,300  SH               SOLE    4,300
+ISHARES MSCI HONG KONG I               COM   464286871     119    7,700  SH               SOLE    7,700
+ISHARES BARCLAYS TIPS BOND FUND        COM   464287176      55      475  SH               SOLE      475
+ISHARES MSCI EMERGING MARKETS          COM   464287234      34      900  SH               SOLE      900
+ISHARES MSCI EAFE INDEX                COM   464287465      89    1,800  SH               SOLE    1,800
+ISHARES RUSSELL 1000 GROWTH            COM   464287614     212    3,670  SH               SOLE    3,670
+ISHARES BARCLAYS INTERMEDIATE          COM   464288638   3,169   29,567  SH               SOLE   29,567
+ISHARES 2017 S&P AMT-FREE MUNICIPAL    COM   464289271      93    1,692  SH               SOLE    1,692
+ISHARES 2015 S&P AMT-FREE MUNICIPAL    COM   464289339     144    2,718  SH               SOLE    2,718
+JPMORGAN CHASE & CO                    COM   46625H100      34    1,017  SH               SOLE    1,017
+JACOBS ENGINEERING                     COM   469814107      28      700  SH               SOLE      700
+JOHNSON & JOHNSON                      COM   478160104      59      900  SH               SOLE      900
+KINDER MORGAN ENERGY PARTNERS          COM   494550106   1,257   14,800  SH               SOLE   14,800
+KRAFT FOODS                            COM   50075N104     714   19,100  SH               SOLE   19,100
+L-3 COMMUNICATIONS TITAN               COM   502424104      20      300  SH               SOLE      300
+LABORATORY CORP OF AMERICA HOLDINGS    COM   50540R409      43      500  SH               SOLE      500
+LEGGETT & PLATT INC                    COM   524660107   1,299   56,400  SH               SOLE   56,400
+LIBERTY PROPERTY TRUST                 COM   531172104   1,383   44,800  SH               SOLE   44,800
+LIFE TECHNOLOGIES CORP                 COM   53217V109      23      600  SH               SOLE      600
+ELI LILLY                              COM   532457108      90    2,176  SH               SOLE    2,176
+LOCKHEED MARTIN                        COM   539830109   1,569   19,400  SH               SOLE   19,400
+M & T BANK CORP                        COM   55261F104      23      300  SH               SOLE      300
+MFS CHARTER INCOME TRUST               COM   552727109      86    9,400  SH               SOLE    9,400
+MFS MULTIMARKET INC TRUST              COM   552737108     134   20,000  SH               SOLE   20,000
+MFS INTERMEDIATE INC TRUST             COM   55273C107     126   20,000  SH               SOLE   20,000
+MFS GOVT MARKETS INC TRUST             COM   552939100      87   12,433  SH               SOLE   12,433
+THE MACERICH CO                        COM   554382101   1,179   23,300  SH               SOLE   23,300
+MARKET VECTORS GOLD MINERS FUND        COM   57060U100      26      500  SH               SOLE      500
+MARSH & MCLENNAN                       COM   571748102     734   23,200  SH               SOLE   23,200
+MASTERCARD                             COM   57636Q104   1,081    2,900  SH               SOLE    2,900
+MCDONALD'S                             COM   580135101   2,127   21,200  SH               SOLE   21,200
+MCKESSON CORP                          COM   58155Q103      23      300  SH               SOLE      300
+MERCK & CO                             COM   58933Y105   1,632   43,300  SH               SOLE   43,300
+MICROSOFT                              COM   594918104   2,741  105,600  SH               SOLE  105,600
+MOLEX INC-CL A                         COM   608554200   1,167   59,000  SH               SOLE   59,000
+MONSANTO                               COM   61166W101     981   14,000  SH               SOLE   14,000
+NYSE EURONEXT                          COM   629491101   1,164   44,600  SH               SOLE   44,600
+NY COMMUNITY BANCORP                   COM   649445103     978   79,100  SH               SOLE   79,100
+NEWMONT MINING                         COM   651639106     900   15,000  SH               SOLE   15,000
+NIKE INC-B                             COM   654106103   1,012   10,500  SH               SOLE   10,500
+NISOURCE INC                           COM   65473P105      57    2,400  SH               SOLE    2,400
+NORDSTROM                              COM   655664100     974   19,600  SH               SOLE   19,600
+NORTEL NETWORKS CORP                   COM   656568508       0    1,261  SH               SOLE    1,261
+NOVARTIS AG-ADR                        COM   66987V109      84    1,476  SH               SOLE    1,476
+ORACLE                                 COM   68389X105   1,341   52,300  SH               SOLE   52,300
+PPL                                    COM   69351T106   1,656   56,275  SH               SOLE   56,275
+PAYCHEX                                COM   704326107   1,168   38,800  SH               SOLE   38,800
+PEPCO HOLDINGS                         COM   713291102   1,543   76,000  SH               SOLE   76,000
+PEPSICO                                COM   713448108   1,075   16,200  SH               SOLE   16,200
+PFIZER                                 COM   717081103   2,577  119,100  SH               SOLE  119,100
+PHILIP MORRIS INTERNATIONAL            COM   718172109   3,037   38,700  SH               SOLE   38,700
+PINNACLE WEST CAPITAL CORP.            COM   723484101   1,436   29,800  SH               SOLE   29,800
+PITNEY BOWES                           COM   724479100   1,211   65,342  SH               SOLE   65,342
+PLAINS ALL AMERICAN PIPELINE           COM   726503105     874   11,900  SH               SOLE   11,900
+PLUM CREEK TIMBER CO INC               COM   729251108   1,155   31,600  SH               SOLE   31,600
+PRAXAIR                                COM   74005P104   1,133   10,600  SH               SOLE   10,600
+PRECISION CASTPARTS                    COM   740189105   1,104    6,700  SH               SOLE    6,700
+PRICELINE.COM                          COM   741503403     655    1,400  SH               SOLE    1,400
+PROGRESS ENERGY                        COM   743263105      28      500  SH               SOLE      500
+PUTNAM PREMIER INCOME TRUST            COM   746853100      70   13,464  SH               SOLE   13,464
+PUTMAN MASTER INTER INCOME TRUST       COM   746909100      70   13,690  SH               SOLE   13,690
+QUALCOMM                               COM   747525103   1,499   27,400  SH               SOLE   27,400
+RED HAT INC                            COM   756577102      17      400  SH               SOLE      400
+REGAL ENTERTAINMENT GROUP-A            COM   758766109   1,413  118,350  SH               SOLE  118,350
+REYNOLDS AMERICAN INC                  COM   761713106   1,565   37,774  SH               SOLE   37,774
+SPDR NUVEEN BARCLAYS CAPITAL S-T MUNI  COM   78464A425   2,013   82,693  SH               SOLE   82,693
+S&P 400 DEPOSITARY RECEIPTS            COM   78467Y107      45      280  SH               SOLE      280
+SALESFORCE.COM                         COM   79466L302     639    6,300  SH               SOLE    6,300
+CHARLES SCHWAB                         COM   808513105      30    2,633  SH               SOLE    2,633
+SILVER WHEATON CORP                    COM   828336107     825   28,500  SH               SOLE   28,500
+SOUTHERN COMPANY                       COM   842587107   1,724   37,250  SH               SOLE   37,250
+SOUTHERN COPPER CORP                   COM   84265V105     975   32,300  SH               SOLE   32,300
+STERICYCLE                             COM   858912108      94    1,200  SH               SOLE    1,200
+TECO ENERGY INC                        COM   872375100   1,529   79,900  SH               SOLE   79,900
+TARGA RESOURCES PARTNERS               COM   87611X105   1,286   34,500  SH               SOLE   34,500
+TEREX                                  COM   880779103     854   63,200  SH               SOLE   63,200
+THERMO FISHER SCIENTIFIC               COM   883556102      31      700  SH               SOLE      700
+3M COMPANY                             COM   88579Y101   1,365   16,700  SH               SOLE   16,700
+UNITED TECHNOLOGIES                    COM   913017109     658    9,000  SH               SOLE    9,000
+URBAN OUTFITTERS INC                   COM   917047102      33    1,200  SH               SOLE    1,200
+VALERO ENERGY                          COM   91913Y100      19      900  SH               SOLE      900
+VALLEY NATIONAL BANCORP                COM   919794107   1,008   81,520  SH               SOLE   81,520
+VANGUARD MSCI EMERGING MARKETS ETF     COM   922042858     711   18,600  SH               SOLE   18,600
+VANGUARD REIT ETF                      COM   922908553      72    1,245  SH               SOLE    1,245
+VERIZON COMMUNICATIONS                 COM   92343V104   2,761   68,818  SH               SOLE   68,818
+VMWARE INC-CL A                        COM   928563402     582    7,000  SH               SOLE    7,000
+WAL-MART STORES                        COM   931142103     868   14,520  SH               SOLE   14,520
+WASTE MANAGEMENT                       COM   94106L109     971   29,700  SH               SOLE   29,700
+WELLS FARGO                            COM   949746101      47    1,700  SH               SOLE    1,700
+WESTAR ENERGY INC                      COM   95709T100     794   27,600  SH               SOLE   27,600
+WA/CLAY US INFL-LKD SEC&INC            COM   95766Q106     368   29,100  SH               SOLE   29,100
+WA/CLAY US INFL-LKD OPP&INC            COM   95766R104     247   19,600  SH               SOLE   19,600
+WILLIAMS PARTNERS LP                   COM   96950F104   1,572   26,200  SH               SOLE   26,200
+WINDSTREAM                             COM   97381W104   1,311  111,690  SH               SOLE  111,690
+XCEL ENERGY                            COM   98389B100      11      400  SH               SOLE      400
+XYLEM INC                              COM   98419M100      21      800  SH               SOLE      800
+YUM! BRANDS INC                        COM   988498101   1,458   24,700  SH               SOLE   24,700
+DGL US 1/21/12 C62                     CALL  73936B606     446    8,200  SH   CALL        SOLE    8,200
+EWI US 3/17/12 P12                     PUT   464286855     923   77,000  SH   PUT         SOLE   77,000
+GLD US 03/16/13 C175                   CALL  78463V107     456    3,000  SH   CALL        SOLE    3,000
+HYG US 03/17/12 P82                    PUT   464288513   1,967   22,000  SH   PUT         SOLE   22,000
+HYG US 3/17/12 P76                     PUT   464288513     349    3,900  SH   PUT         SOLE    3,900
+SPY US 01/21/12 C122                   CALL  78462F103   1,908   15,200  SH   CALL        SOLE   15,200
+SPY US 2/18/12 P116                    PUT   78462F103   5,020   40,000  SH   PUT         SOLE   40,000
+UNG US 01/19/13 C20                    CALL  912318110     342   53,000  SH   CALL        SOLE   53,000
+USO US 3/17/12 C38                     CALL  91232N108     888   23,300  SH   CALL        SOLE   23,300
+AMERICAN FINANCIAL GROUP               PFD   025932302   5,185  197,833  SH               SOLE  197,833
+ARES CAPITAL CORP                      PFD   04010L202   1,559   61,700  SH               SOLE   61,700
+ASSURED GUARANTY MUNI                  PFD   04623A304   5,344  224,366  SH               SOLE  224,366
+CBS CORP                               PFD   124857400   1,408   55,420  SH               SOLE   55,420
+CITIGROUP CAPITAL XII                  PFD   17315D204      20      800  SH               SOLE      800
+COMMONWEALTH REIT                      PFD   203233507   2,498  118,225  SH               SOLE  118,225
+COUNTRYWIDE V                          PFD   222388209      41    2,000  SH               SOLE    2,000
+ENTERGY ARKANSAS                       PFD   29364D779   6,000  219,708  SH               SOLE  219,708
+EVEREST RE CAPITAL TRUST II            PFD   29980R202   3,201  129,484  SH               SOLE  129,484
+GENERAL MOTORS PFD                     PFD   37045V209   1,185   34,600  SH               SOLE   34,600
+GOLDMAN SACHS                          PFD   38145X111     748   30,200  SH               SOLE   30,200
+JPM CAPITAL XXXIX                      PFD   48125E207   1,381   54,120  SH               SOLE   54,120
+METLIFE INC                            PFD   59156R603   1,557   61,100  SH               SOLE   61,100
+PNC CAPITAL TRUST E                    PFD   69350S208   1,166   44,610  SH               SOLE   44,610
+PUBLIC STORAGE                         PFD   74460D232   1,390   54,600  SH               SOLE   54,600
+VORNADO REALTY TRUST                   PFD   929042869   1,842   68,500  SH               SOLE   68,500
+WACHOVIA CAPITAL TRUST III FRN         PFD   92978AAA0     208  240,000  SH               SOLE  240,000
+</TABLE>
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

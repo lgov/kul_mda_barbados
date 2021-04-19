@@ -1,0 +1,232 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ LE3dSo5s86EbkXxqvN8bKIbUmkMyGN/VyRV8lXmMoAmpp/n7iWTKLUW7Nu46h0G7
+ NLEl5AF4OUWCmuHUIcMRPg==
+
+<SEC-DOCUMENT>0000885709-01-500004.txt : 20010514
+<SEC-HEADER>0000885709-01-500004.hdr.sgml : 20010514
+ACCESSION NUMBER:		0000885709-01-500004
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20010331
+FILED AS OF DATE:		20010511
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			PAYDENFUNDS
+		CENTRAL INDEX KEY:			0000885709
+		STANDARD INDUSTRIAL CLASSIFICATION:	 []
+		STATE OF INCORPORATION:			OH
+		FISCAL YEAR END:			1031
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		
+		SEC FILE NUMBER:	028-04643
+		FILM NUMBER:		1631161
+
+	BUSINESS ADDRESS:	
+		STREET 1:		333 S GRAND AVE
+		STREET 2:		32ND FL
+		CITY:			LOS ANGELES
+		STATE:			CA
+		ZIP:			90071
+
+	MAIL ADDRESS:	
+		STREET 1:		333 S GRAND AVE
+		STREET 2:		32ND FL
+		CITY:			LOS ANGELES
+		STATE:			CA
+		ZIP:			90071
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	PAYDEN & RYGEL INVESTMENT GROUP
+		DATE OF NAME CHANGE:	19940104
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	P&R INVESTMENT TRUST
+		DATE OF NAME CHANGE:	19920929
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>file001.txt
+<DESCRIPTION>13F-HR FOR THE QUARTER ENDED 03/31/01
+<TEXT>
+
+
+
+                                 UNITED STATES
+                       SECURITIES AND EXCHANGE COMMISSION
+                             Washington, D.C. 20549
+
+                                    FORM 13F
+
+ALL  INFORMATION  REQUIRED  OF  INSTITUTIONAL  INVESTMENT  MANAGERS  PURSUANT TO
+SECTION 13(F) OF THE SECURITIES EXCHANGE ACT OF 1934 AND RULES THEREUNDER
+
+Report for the Calender Year or Quarter Ended 03/31/01
+
+Check here if Amendment [ ];
+Amendment  Number:  ____
+This Amendment (Check only one.):
+[ ] is a restatement. [ ] adds new holdings entries.
+
+Institutional Investment Manager Filing this Report:
+
+Name:             Payden & Rygel
+Address:          333 South Grand Avenue
+                  Los Angeles, CA 90071
+
+13F File Number: 28-04643
+
+The institutional  investment  manager filing this report and the person by whom
+it is signed hereby  represent  that the person signing the report is authorized
+to  submit  it,  that all  information  contained  herein is true,  correct  and
+complete,  and  that it is  understood  that  all  required  items,  statements,
+schedules, lists, and tables, are considered integral parts of this form.
+
+Person Signing this Report on Behalf of Reporting Manager:
+
+Name:             Edward S. Garlock
+Title:            Secretary
+Phone:            213-625-1900
+
+Signature, Place, and Date of Signing:
+
+/s/
+Los Angeles, CA
+05/11/01
+
+Report Type (Check only one.):
+
+[ X ] 13F  HOLDINGS  REPORT.  (Check  here if all  holdings  of this  reporting
+     manager are reported in this report.)
+
+[    ] 13F NOTICE.  (Check here if no holdings reported are in this report,  and
+     all holdings are reported by other reporting manager(s).)
+
+[    ] 13F COMBINATION REPORT. (Check here if a portion of the holdings for this
+     reporting manager are reported in this report and a portion are reported by
+     other reporting manager(s).)
+
+List of Other Managers Reporting for this Manager:
+
+NONE
+
+                             FORM 13F SUMMARY PAGE
+
+Report Summary:
+
+Number of Other Included Managers:  0
+
+Form 13F Information Table Entry Total:  79
+
+Form 13F Information Table Value Total:  $99,781,000
+
+
+List of Other Included Managers:
+
+NONE
+
+
+<TABLE>
+<CAPTION>
+
+                              Title of                   Value       Shares/  SH/   Put/  Invstmnt  Other      Voting Authority
+Name of Issuer                 Class         CUSIP      (x$1000)     PRN AMT  PRN   Call   Dscrtn  Managers   Sole   Shared  None
+- --------------                 -----         -----      --------     -------  ---   ----  -------- --------   ----   ------  ----
+<S>                            <C>          <C>          <C>        <C>       <C>   <C>   <C>      <C>      <C>      <C>      <C>
+ACACIA RESEARCH CORP           CMN          003881109      $   160   24,400   SH          SOLE               24,400
+ACT MANUFACTURING INC          CMN          000973107      $   145   13,300   SH          SOLE               13,300
+ALBERTA ENERGY CO LTD          CMN          012873105      $   332    7,500   SH          SOLE                7,500
+AMETEK INC                     CMN          031100100      $   264    9,600   SH          SOLE                9,600
+ARCH COAL INC                  CMN          039380100      $   360   12,000   SH          SOLE               12,000
+BENCHMARK ELECTRONICS INC      CMN          08160H101      $   224   11,500   SH          SOLE               11,500
+BOK FINANCIAL CORPORATION      CMN          05561Q201      $   201    8,200   SH          SOLE                8,200
+C&D TECHNOLOGIES INC           CMN          124661109      $   475   17,200   SH          SOLE               17,200
+CALPINE CORPORATION            CMN          131347106      $   220    4,000   SH          SOLE                4,000
+CATERPILLAR                    CMN          149123101      $ 4,527  102,000   SH          SOLE              102,000
+COGNIZANT TECH SOLUTIONS CRP   CMN          192446102      $   204    6,800   SH          SOLE                6,800
+CONCORD CAMERA CORP            CMN          206156101      $   157   22,300   SH          SOLE               22,300
+CONSOL ENERGY INC              CMN          20854P109      $   283    8,200   SH          SOLE                8,200
+COUSINS PROPERTIES INC         CMN          222795106      $   250   10,000   SH          SOLE               10,000
+DEVELOPERS DIVERS REALTY CORP  CMN          25191103       $   238   16,200   SH          SOLE               16,200
+DUPONT DE NEMOURS              CMN          263534109      $ 4,123  101,300   SH          SOLE              101,300
+EASTMAN KODAK CO.              CMN          277461109      $ 4,715  118,200   SH          SOLE              118,200
+EL PASO CORPORATION            CMN          28336L109      $   229    3,500   SH          SOLE                3,500
+ELANTEC SEMICONDUCTOR INC      CMN          284155108      $   213    8,000   SH          SOLE                8,000
+ELIZABETH ARDEN INC            CMN          28660G106      $   253   14,900   SH          SOLE               14,900
+EMC CORPORATION                CMN          268648102      $   326   11,100   SH          SOLE               11,100
+EOG RESOURCES, INC             CMN          26875P101      $   247    6,000   SH          SOLE                6,000
+EXXON MOBIL CORPORATION        CMN          30231G102      $ 4,803   59,300   SH          SOLE               59,300
+FACTORY 2-U STORES INC         CMN          303072102      $   213    7,200   SH          SOLE                7,200
+FOREST LABORATORIES INC        CMN          345838106      $   237    4,000   SH          SOLE                4,000
+FTI CONSULTING INC             CMN          302941109      $   223   17,200   SH          SOLE               17,200
+GENERAL CABLE CORP             CMN          369300108      $   165   15,200   SH          SOLE               15,200
+GENERAL ELECTRIC CO. (USA)     CMN          369604103      $   226    5,400   SH          SOLE                5,400
+GENERAL MOTORS CORP            CMN          370442105      $ 4,667   90,000   SH          SOLE               90,000
+GREAT LAKES CHEMICAL CORP      CMN          390568103      $   237    7,700   SH          SOLE               10,000
+HASBRO INC                     CMN          418056107      $   129   10,000   SH          SOLE               10,000
+IHOP CORP                      CMN          449623107      $   181    8,400   SH          SOLE                8,400
+INDYMAC MORTGAGE HOLDINGS, INC CMN          456607100      $   279    9,700   SH          SOLE                9,700
+INTERNATIONAL PAPER            CMN          460146103      $ 4,174  115,700   SH          SOLE              115,700
+ISHARES RUSSELL 1000 VALUE                  464287598      $ 3,231   57,600   SH          SOLE               57,600
+ISHARES RUSSELL 2000 VALUE                  464287630      $   558    4,800   SH          SOLE                4,800
+ISHARES S&P SMALLCAP 600                    464287804      $ 1,320   13,000   SH          SOLE               13,000
+IXYS CORPORATION               CMN          46600W106      $   206   13,100   SH          SOLE               13,100
+J P MORGAN CHASE & CO          CMN          46625H100      $ 4,239   94,400   SH          SOLE               94,400
+KCS ENERGY INC                 CMN          482434206      $   158   27,800   SH          SOLE               27,800
+KINDER MORGAN ENERGY PARTNERS  CMN          494550106      $   410    6,500   SH          SOLE                6,500
+KINROSS GOLD CORPORATION       CMN          496902107      $    85  171,000   SH          SOLE              171,000
+L-3 COMMUNICATIONS HLDGS INC   CMN          502424104      $   245    3,100   SH          SOLE                3,100
+LATTICE SEMICONDUCTOR CORP     CMN          518415104      $   182   10,000   SH          SOLE               10,000
+METHANEX CORP                  CMN          59151K108      $   260   32,500   SH          SOLE               32,500
+MINNESOTA MINING & MFG         CMN          604059105      $ 4,416   42,500   SH          SOLE               42,500
+NASDAQ-100 SHARES                           631100104      $   497   12,700   SH          SOLE               12,700
+NRG ENERGY INC                 CMN          629377102      $   233    6,400   SH          SOLE                6,400
+OCEAN ENERGY INC               CMN          67481E106      $   301   18,200   SH          SOLE               18,200
+ORACLE                         CMN          68389X105      $   300   20,000   SH          SOLE               20,000
+PACIFIC SUNWEAR OF CALIF       CMN          694873100      $   226    8,200   SH          SOLE                8,200
+PARADIGM GENETICS INC          CMN          69900R106      $   152   27,600   SH          SOLE               27,600
+PARK PLACE ENTERTAINMENT       CMN          700690100      $   160   15,600   SH          SOLE               15,600
+PEREGRINE SYSTEMS, INC.        CMN          71366Q101      $   293   15,020   SH          SOLE               15,020
+PHILIP MORRIS COS.             CMN          718154107      $ 6,057  127,657   SH          SOLE              127,657
+PRECISION CASTPARTS CORP       CMN          740189105      $   225    6,800   SH          SOLE                6,800
+PRIZE ENERGY CORP              CMN          74267L106      $   202    9,900   SH          SOLE                9,900
+PYR ENERGY CORP                CMN          693677106      $   414   70,800   SH          SOLE               70,800
+RESPIRONICS INC                CMN          761230101      $   256    8,400   SH          SOLE                8,400
+RIGHTCHOICE MANAGED CARE       CMN          76657T102      $   217    6,400   SH          SOLE                6,400
+S&P 400 DEPOSITORY RECEIPTS                 595635103      $18,948  224,500   SH          SOLE              224,500
+S&P 500 DEPOSITORY RECEIPTS                 78462F103      $14,621  125,300   SH          SOLE              125,300
+SANGAMO BIOSCIENCES INC        CMN          800677106      $   260   24,200   SH          SOLE               24,200
+SBC COMMS                      CMN          78387G103      $ 4,293   96,200   SH          SOLE               96,200
+SEROLOGICALS CORPORATION       CMN          817523103      $   201   14,900   SH          SOLE               14,900
+SKECHERS USA INC               CLA          830566105      $   214    8,900   SH          SOLE                8,900
+SOUTHWESTERN ENERGY COMPANY    CMN          845467109      $   245   24,700   SH          SOLE               24,700
+STEWART ENTERPRISES INC        CLA          860370105      $    50   10,000   SH          SOLE               10,000
+STILLWATER MINING COMPANY      CMN          86074Q102      $   227    8,400   SH          SOLE                8,400
+SUMMIT PROPERTIES INC          CMN          866239106      $   247   10,100   SH          SOLE               10,100
+SWIFT TRANSPORTATION CO INC    CMN          870756103      $   187   10,100   SH          SOLE               10,100
+TOLL BROTHERS INC              CMN          889478103      $   246    6,400   SH          SOLE                6,400
+UCBH HOLDINGS INC              CMN          90262T308      $   312    6,400   SH          SOLE                6,400
+VALENCE TECHNOLOGY INC         CMN          918914102      $    94   20,500   SH          SOLE               20,500
+VALERO ENERGY CORP             CMN          91913Y100      $   249    7,000   SH          SOLE                7,000
+VISIONICS CORPORATION          CMN          92831E101      $    43   11,000   SH          SOLE               11,000
+WESTERN GAS RESOURCES INC      CMN          958259103      $   400   12,400   SH          SOLE               12,400
+WOODWARD GOVERNOR CO           CMN          980745103      $   236    4,600   SH          SOLE                4,600
+XCARE.NET INC.                 CMN          98388Y101      $   185   27,800   SH          SOLE               27,800
+
+
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

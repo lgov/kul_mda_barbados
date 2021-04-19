@@ -4,3 +4,4 @@ scikit-learn
 matplotlib
 sec-edgar-downloader
 secedgar
+openpyxl
