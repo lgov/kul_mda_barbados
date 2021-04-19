@@ -31,3 +31,27 @@ def parse_submission_file(file_path):
         form_node.insert(0, ET.fromstring(line))
 
     return form_node
+
+
+def parse_investment(investment_el):
+    """
+    Parse an informationTable/infoTable xml element in a dictionary with the values
+    we will use as elements.
+
+    :param investment_el: ElementTree element
+    :return: dictionary
+    """
+    ns = {"ns1": "http://www.sec.gov/edgar/document/thirteenf/informationtable"}
+    nameOfIssuer = investment_el.find('ns1:nameOfIssuer', ns).text
+    titleOfClass = investment_el.find('ns1:titleOfClass', ns).text
+    cusip = investment_el.find('ns1:cusip', ns).text
+    value = investment_el.find('ns1:value', ns).text
+    sshPrnamt = investment_el.find('ns1:shrsOrPrnAmt/ns1:sshPrnamt', ns).text
+    sshPrnamtType = investment_el.find('ns1:shrsOrPrnAmt/ns1:sshPrnamtType', ns).text
+    return {"nameOfIssuer": nameOfIssuer,
+            "titleOfClass": titleOfClass,
+            "cusip": cusip,
+            "value": value,
+            "sshPrnamt": sshPrnamt,
+            "sshPrnamtType": sshPrnamtType
+            }

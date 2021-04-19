@@ -1,14 +1,14 @@
 import logging
 import unittest
-import xml.etree.ElementTree as ET
 
-from form_13f_parser import parse_submission_file
+from form_13f_parser import parse_submission_file, parse_investment
 
 
 class TestParseSubmissionFile(unittest.TestCase):
     def setUp(self):
         logging.basicConfig(level=logging.DEBUG,
                             format='%(asctime)s %(message)s')
+
 
     def test_parse_vanguard_2019_submision(self):
         """
@@ -19,6 +19,17 @@ class TestParseSubmissionFile(unittest.TestCase):
 
         # parsed_data is an xml ElementTree element, so we can use xpath to browse the
         # tree
-        ns = { "ns2": "http://www.sec.gov/edgar/thirteenffiler"}
-        value = parsed_data.find('.//ns2:edgarSubmission/ns2:headerData/ns2:filerInfo/ns2:filer/ns2:credentials/ns2:cik', ns).text
-        self.assertEqual("0000102909", value)
+        ns = { "ns1": "http://www.sec.gov/edgar/thirteenffiler"}
+        cik = parsed_data.find('.//ns1:edgarSubmission/ns1:headerData/ns1:filerInfo/ns1:filer/ns1:credentials/ns1:cik', ns).text
+        self.assertEqual("0000102909", cik)
+
+        # List the companies the investment fund is investing in
+        ns = {"ns1": "http://www.sec.gov/edgar/document/thirteenf/informationtable"}
+        investment_els = parsed_data.findall('.//ns1:informationTable/ns1:infoTable', ns)
+        self.assertEqual(13483, len(investment_els))
+        for investment_el in investment_els:
+            investment = parse_investment(investment_el)
+            print(investment)
+
+        pass
+
