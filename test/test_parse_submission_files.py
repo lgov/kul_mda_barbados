@@ -1,16 +1,8 @@
 import logging
 import unittest
+import xml.etree.ElementTree as ET
 
-
-def parse_submission_file(file_name):
-    """
-    Opens a file that was originally downloaded from the Edgar site and parse it.
-    We assume that the file is a 13F-HR form
-    :param file_name:
-    :return: a dictionary with all relevant attributes from the document
-    """
-    # TODO: open file, parse it and return dictionary of data
-    return {'cik': 'abcdef'}
+from form_13f_parser import parse_submission_file
 
 
 class TestParseSubmissionFile(unittest.TestCase):
@@ -23,4 +15,10 @@ class TestParseSubmissionFile(unittest.TestCase):
         """
         file_name = "data/102909-full-submission.txt"
         parsed_data = parse_submission_file(file_name)
-        self.assertEqual("102909", parsed_data['cik'])
+        # ET.dump(parsed_data)
+
+        # parsed_data is an xml ElementTree element, so we can use xpath to browse the
+        # tree
+        ns = { "ns2": "http://www.sec.gov/edgar/thirteenffiler"}
+        value = parsed_data.find('.//ns2:edgarSubmission/ns2:headerData/ns2:filerInfo/ns2:filer/ns2:credentials/ns2:cik', ns).text
+        self.assertEqual("0000102909", value)
