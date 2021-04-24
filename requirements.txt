@@ -5,3 +5,5 @@ matplotlib
 sec-edgar-downloader
 secedgar
 openpyxl
+numpy
+seaborn
