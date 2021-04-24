@@ -90,6 +90,24 @@ def parse_date_from_xml(date_str):
     date_str = date_str.strip()
     return datetime.strptime(date_str, "%m-%d-%Y").date()
 
+
+def parse_amount_times_1000(value):
+    """
+    Parse a number (can be a currency, can contain thousand separator US-format) and
+    multiply it by 1000.
+    :param value: <string> containing a number or price amount
+    :return: None if not a floating point number
+    """
+    value = value.replace('$', '').replace(',', '').strip()
+    try:
+        value = float(value) * 1000
+        return value
+    except ValueError as e:
+        pass
+
+    return None
+
+
 def parse_submission_table_file(text):
     table_lines = []
     reading_table = False
@@ -140,6 +158,7 @@ def parse_submission_table_file(text):
     if not table_df is None:
         # Strip all unneeded spaces from the column names
         table_df.columns = [' '.join(col.strip().split()) for col in table_df.columns]
+
         # Try to identify unnamed columns
         unnamed_cols = [col for col in table_df.columns if col.startswith('Unnamed')]
         for col in unnamed_cols:
@@ -167,6 +186,9 @@ def parse_submission_table_file(text):
         table_df = table_df.loc[:, table_df.columns.isin(COL_LIST)]
         table_df["cik"] = cik
         table_df["report_end_date"] = report_end_date
+
+        # In the table structure, the value column needs to be x 1000
+        table_df['value'] = table_df['value'].apply(parse_amount_times_1000)
 
         # Delete the table header separator row.
         if 'titleOfClass' in table_df.columns:
@@ -205,7 +227,7 @@ def parse_investment_from_xml(cik, report_end_date, investment_el):
     nameOfIssuer = investment_el.find('ns1:nameOfIssuer', ns).text
     titleOfClass = investment_el.find('ns1:titleOfClass', ns).text
     cusip = investment_el.find('ns1:cusip', ns).text
-    value = investment_el.find('ns1:value', ns).text
+    value = parse_amount_times_1000(investment_el.find('ns1:value', ns).text)
     sshPrnamt = investment_el.find('ns1:shrsOrPrnAmt/ns1:sshPrnamt', ns).text
     sshPrnamtType = investment_el.find('ns1:shrsOrPrnAmt/ns1:sshPrnamtType', ns).text
     return {"report_end_date": report_end_date,
