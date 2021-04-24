@@ -1,7 +1,8 @@
 import logging
 import unittest
+from datetime import date
 
-from form_13f_parser import parse_submission_file, parse_investment_from_xml, \
+from form_13f_parser import parse_submission_file, parse_date_from_table, parse_date_from_xml,\
     parse_cid_from_table
 
 
@@ -24,6 +25,7 @@ class TestParseSubmissionFile(unittest.TestCase):
         first_investment = investment_els[0]
         self.assertTrue(isinstance(first_investment, dict))
         self.assertEqual("0000102909", first_investment['cik'])
+        self.assertEqual(date(2019, 3, 31), first_investment['report_end_date'])
 
     def test_parse_table_submision(self):
         """
@@ -38,6 +40,7 @@ class TestParseSubmissionFile(unittest.TestCase):
         first_investment = investment_els[0]
         self.assertTrue(isinstance(first_investment, dict))
         self.assertEqual("0000885709", first_investment['cik'])
+        self.assertEqual(date(2011,12,31), first_investment['report_end_date'])
 
     def test_parse_table_diff_layout_submision(self):
         """
@@ -52,6 +55,7 @@ class TestParseSubmissionFile(unittest.TestCase):
         first_investment = investment_els[0]
         self.assertTrue(isinstance(first_investment, dict))
         self.assertEqual("0000885709", first_investment['cik'])
+        self.assertEqual(date(2011,9,30), first_investment['report_end_date'])
 
     def test_parse_table_diff_layout2_submision(self):
         """
@@ -66,7 +70,24 @@ class TestParseSubmissionFile(unittest.TestCase):
         first_investment = investment_els[0]
         self.assertTrue(isinstance(first_investment, dict))
         self.assertEqual("0000885709", first_investment['cik'])
+        self.assertEqual(date(2001,3,31), first_investment['report_end_date'])
 
     def test_parse_table_cid_from_accession_number(self):
         accession_number = "0000885709-12-000010"
         self.assertEqual("0000885709", parse_cid_from_table(accession_number))
+
+    def test_parse_table_date(self):
+        date_str = "20041026"
+        self.assertEqual(date(2004, 10, 26), parse_date_from_table(date_str))
+
+        # Test that whitespaces are stripped first.
+        date_str = " 20041026"
+        self.assertEqual(date(2004, 10, 26), parse_date_from_table(date_str))
+
+    def test_parse_xml_date(self):
+        date_str = "03-31-2019"
+        self.assertEqual(date(2019, 3, 31), parse_date_from_xml(date_str))
+
+        # Test that whitespaces are stripped first.
+        date_str = " 03-31-2019"
+        self.assertEqual(date(2019, 3, 31), parse_date_from_xml(date_str))

@@ -3,6 +3,7 @@ import tempfile
 import xml.etree.ElementTree as ET
 from glob import glob
 import pandas as pd
+from datetime import datetime
 
 def parse_submission_xml_file(text):
     """
@@ -39,11 +40,13 @@ def parse_submission_xml_file(text):
     ns = { "ns1": "http://www.sec.gov/edgar/thirteenffiler"}
     cik = form_node.find('.//ns1:edgarSubmission/ns1:headerData/ns1:filerInfo/ns1:filer/ns1:credentials/ns1:cik', ns).text
 
+    reportCalendarOrQuarter = form_node.find('.//ns1:edgarSubmission/ns1:formData/ns1:coverPage/ns1:reportCalendarOrQuarter', ns).text
+    report_end_date = parse_date_from_xml(reportCalendarOrQuarter)
     # List the companies the investment fund is investing in
     ns = {"ns1": "http://www.sec.gov/edgar/document/thirteenf/informationtable"}
     investment_els = form_node.findall('.//ns1:informationTable/ns1:infoTable', ns)
 
-    investments = [parse_investment_from_xml(cik, i) for i in investment_els]
+    investments = [parse_investment_from_xml(cik, report_end_date, i) for i in investment_els]
 
     return investments
 
@@ -55,14 +58,43 @@ def parse_cid_from_table(accession_number):
     :param accession_number:
     :return: <string> cik
     """
+    # Strip spaces, then split the string on the '-' characters into a list
+    # ["0000885709", "12", "000010"]
+    # From that list, return the first element.
     return accession_number.strip().split('-')[0]
 
+
+def parse_date_from_table(date_str):
+    """
+    Parse the data from the date string.
+    Example: "20041026" -> date(2004, 10, 26)
+    :param date_str:
+    :return: <datetime.date> date
+    """
+
+    # Clean whitespaces first, then parse the date string as format "yyyymmdd".
+    # Convert the datetime object to a date object (as we don't have hour/minute here)
+    date_str = date_str.strip()
+    return datetime.strptime(date_str, "%Y%m%d").date()
+
+def parse_date_from_xml(date_str):
+    """
+    Parse the data from the date string.
+    Example: "03-31-2019" -> date(2019, 03, 31)
+    :param date_str:
+    :return: <datetime.date> date
+    """
+
+    # Clean whitespaces first, then parse the date string as format "yyyymmdd".
+    # Convert the datetime object to a date object (as we don't have hour/minute here)
+    date_str = date_str.strip()
+    return datetime.strptime(date_str, "%m-%d-%Y").date()
 
 def parse_submission_table_file(text):
     table_lines = []
     reading_table = False
     table_df = None
-    cik = None
+    report_end_date = cik = None
 
     for line in text.splitlines():
         if line.startswith('<'):
@@ -88,6 +120,9 @@ def parse_submission_table_file(text):
         comps = line.strip().split(':')
         if comps[0] == "ACCESSION NUMBER":
             cik = parse_cid_from_table(comps[1])
+            continue
+        elif comps[0] == "CONFORMED PERIOD OF REPORT":
+            report_end_date = parse_date_from_table(comps[1])
             continue
         # Skip key:value pairs we are not interested in
         if len(comps) > 1:
@@ -131,6 +166,7 @@ def parse_submission_table_file(text):
                                             "OPTIONTYPE":"sshPrnamtType"})
         table_df = table_df.loc[:, table_df.columns.isin(COL_LIST)]
         table_df["cik"] = cik
+        table_df["report_end_date"] = report_end_date
 
         # Delete the table header separator row.
         if 'titleOfClass' in table_df.columns:
@@ -155,11 +191,13 @@ def parse_submission_file(file_path):
         return parse_submission_table_file(text)
 
 
-def parse_investment_from_xml(cik, investment_el):
+def parse_investment_from_xml(cik, report_end_date, investment_el):
     """
     Parse an informationTable/infoTable xml element in a dictionary with the values
     we will use as elements.
 
+    :param cik: <string> same cik for all investiments
+    :param report_end_date:<date> same reportCalendarOrQuarter for all investiments
     :param investment_el: ElementTree element
     :return: dictionary
     """
@@ -170,7 +208,8 @@ def parse_investment_from_xml(cik, investment_el):
     value = investment_el.find('ns1:value', ns).text
     sshPrnamt = investment_el.find('ns1:shrsOrPrnAmt/ns1:sshPrnamt', ns).text
     sshPrnamtType = investment_el.find('ns1:shrsOrPrnAmt/ns1:sshPrnamtType', ns).text
-    return {"cik": cik,
+    return {"report_end_date": report_end_date,
+            "cik": cik,
             "nameOfIssuer": nameOfIssuer,
             "titleOfClass": titleOfClass,
             "cusip": cusip,
@@ -182,7 +221,7 @@ def parse_investment_from_xml(cik, investment_el):
 
 def parse_all_13f_submission_files(root_folder):
     lst = []
-    for subm_file in glob(os.path.join(root_folder, '**/full-submission.txt'), recursive=True):
+    for subm_file in glob(os.path.join(root_folder, '**/*.txt'), recursive=True):
         print("Parsing file %s" % subm_file)
         investments = parse_submission_file(subm_file)
         if investments is None:
@@ -197,5 +236,5 @@ def parse_all_13f_submission_files(root_folder):
 # Execute this code only when running the python file as program, not when importing
 # it from e.g. the unit test code.
 if __name__ == '__main__':
-    df = parse_all_13f_submission_files(root_folder="data/sec-edgar-filings")
-    df.to_excel("data/subset_submission_files.xlsx", index=False)
+    df = parse_all_13f_submission_files(root_folder="data/data_MDA/data")
+    df.to_excel("data/all_submission_files.xlsx", index=False)
