@@ -1,37 +1,43 @@
-from sec_edgar_downloader import Downloader
-import pandas
-from secedgar.filings import Filing, FilingType
+import feedparser as fp
+import re
+import urllib3
+import os
 
-loader = Downloader("../data")
 
-
-def download_form(cik, form_type="13F-HR"):
+def download_13f_hr_files(state):
     """
-    Download the XML form from the Edgar website for company <cik>
-    :param cik: integer id of company
-    :param form_type: optional form type id
-    :return:
+    Summmary Downloads the filings from the sec archive of the investment companies from a given state.
     """
-    # Pad number with zeroes up to 10 characters
-    cik_str = f'{cik:010}'
-    result = loader.get(form_type, cik_str)
-    pass
+    i = 0
+    max_companies = 200
+    valid_file = True
+    list_of_companies = []
+    while len(set(list_of_companies)) < max_companies and valid_file:
+        feed = fp.parse(
+            f'https://www.sec.gov/cgi-bin/srch-edgar?text=Form-Type%3D13F-HR&start={80 * i + 1}&count={80 * (i + 1)}&first=2015&last=2021&output=atom')
+        if len(feed.entries) == 0:
+            # Checks if the RSS file is valid.
+            valid_file = False
+        for entry in feed.entries:
+            # checks if the company is incorporated in the given state
+            text_name = entry.link.replace("-index.htm", ".txt")
+            http = urllib3.PoolManager()
+            text = http.request('GET', text_name).data
+            temp = re.search(f'STATE OF INCORPORATION:{state}', text.decode().replace("\t", ""))
+            if (temp != None):
+                #  make new directory given the file name and store filings in this directory.
+                file_name = re.search("data/.*\.txt", text_name).group()
+                if file_name != None:
+                    try:
+                        os.makedirs(f'{os.path.dirname(file_name)}', exist_ok=True)
+                        with open(f'{file_name}', "wb") as f:
+                            f.write(text)
+                        company_name = entry.title.replace("13F-HR - ", "")
+                        list_of_companies.append(company_name)
+                        break
+                    except Exception as e:
+                        print(e)
+        i += 1
 
 
-def get_cik_list_of_state(state):
-    """
-        Reads the CIK_list,csv file and returns a pandas dataframe containing companies from state <state>
-        :param state: the state of the investment company
-        :return: dataframe containing data for investment companies from state <state>
-        """
-    df = pandas.read_csv('../data/CIK_list.csv')
-    return df.loc[df['State'] == state]
-
-def download_forms_from_cik(state):
-    df = get_cik_list_of_state(state)
-    for cik in df['CIK Number']:
-        download_form(cik)
-        print(f'downloaded cik: {cik}')
-
-download_forms_from_cik('CA')
-# download_form(102909)
+download_13f_hr_files('CA')

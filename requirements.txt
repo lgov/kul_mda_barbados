@@ -5,5 +5,7 @@ matplotlib
 sec-edgar-downloader
 secedgar
 openpyxl
+feedparser
+urllib3
 numpy
 seaborn
