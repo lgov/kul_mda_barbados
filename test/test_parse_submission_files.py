@@ -24,6 +24,7 @@ class TestParseSubmissionFile(unittest.TestCase):
 
         first_investment = investment_els[0]
         self.assertTrue(isinstance(first_investment, dict))
+        self.assertEqual("COM", first_investment['titleOfClass'])
         self.assertEqual("0000102909", first_investment['cik'])
         self.assertEqual(date(2019, 3, 31), first_investment['report_end_date'])
         self.assertEqual(237000, first_investment['value'])
