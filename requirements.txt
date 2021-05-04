@@ -9,3 +9,4 @@ feedparser
 urllib3
 numpy
 seaborn
+beautifulsoup4
