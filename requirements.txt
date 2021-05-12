@@ -10,3 +10,4 @@ urllib3
 numpy
 seaborn
 beautifulsoup4
+yfinance
