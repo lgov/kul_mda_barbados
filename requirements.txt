@@ -13,4 +13,5 @@ beautifulsoup4
 yfinance
 networkx
 community
-operator
+# operator
+node2vec
