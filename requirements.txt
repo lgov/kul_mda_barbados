@@ -12,6 +12,6 @@ seaborn
 beautifulsoup4
 yfinance
 networkx
-community
+python-Levenshtein
 # operator
 node2vec
