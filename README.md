@@ -1,6 +1,8 @@
 ## Project code organisation
 
-requirements.txt: all packages that need to be installed to run the downloader, parser and notebooks
+_requirements.txt_: all packages that need to be installed to run the downloader, parser and notebooks
+
+_cleanup_notebook.sh_: script to remove all output from notebooks, to be used before committing the changs to the git repository.
 
 **test/**
 Unit tests for the 13F form parser
